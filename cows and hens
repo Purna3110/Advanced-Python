@@ -1,0 +1,13 @@
+legs=int(input())
+heads=int(input())
+flag=False
+for cows in range (0,heads+1):
+     hens=heads-cows
+     callegs=cows*4+hens*2
+     if callegs==legs:
+        flag= True
+        break
+if flag==True:
+   print (c,h)
+else:
+     print("no solution")
