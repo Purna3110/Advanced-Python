@@ -1,0 +1,35 @@
+a="I love india"
+b=a.upper()
+c=a.swapcase()
+d=a.title()
+e=a.capitalize()
+f=a.find("love")
+g=a.count("i")
+h=a.isupper()
+i=a.islower()
+j=a.isdigit()
+k=a.isalpha() #aplhabets
+l=a.isalnum() #all numbers and string
+m=a.split() #return type: list
+n=a.split("love")
+o=" ".join(a)
+p=" ".join(i for i in a if i in "AEIOU") #comprehension first i is for printing and condition is vowels
+q=sorted(a)
+r=sorted(a,reverse="True")#reverse and sorted 
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+print(j)
+print(k)
+print(l)
+print(m)
+print(n)
+print(o)
+print(p)
+print(q)
+print(r)
